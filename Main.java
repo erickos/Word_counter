@@ -6,7 +6,7 @@ public class Main
 	{
 		Scanner s = new Scanner( System.in );
 		
-		System.out.println( "Digite uma frase : " );	
+		System.out.print( "Digite uma frase : " );	
 		String line = s.nextLine();
 
 		Contador cont = new Contador( line );
